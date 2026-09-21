@@ -1,0 +1,29 @@
+@import 'tailwindcss';
+
+.hover {
+    @apply relative inline-block font-semibold after:absolute after:right-0 after:-bottom-0.5 after:left-0 after:h-0.5 after:origin-left after:scale-x-0 after:bg-current after:content-[''] after:transition-transform after:duration-200 after:ease-in hover:after:scale-x-100;
+}
+
+.food {
+    @apply flex items-center gap-1 px-4 pr-5 bg-white py-1 shadow-xl shadow-gray-400 inset-2 rounded-3xl font-semibold cursor-pointer
+}
+
+.not-food {
+    @apply cursor-pointer flex items-center gap-1 bg-white py-2 px-5 rounded-3xl
+}
+
+.menu {
+    @apply border border-amber-600 px-6 py-2 rounded-3xl hover:bg-amber-600 cursor-pointer font-semibold
+}
+
+.foot {
+    @apply flex flex-col gap-4
+}
+
+.links {
+    @apply flex flex-col gap-3 text-gray-400
+}
+
+.links a {
+    @apply hover:text-black
+}
