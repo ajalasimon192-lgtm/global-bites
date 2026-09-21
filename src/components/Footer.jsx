@@ -14,7 +14,7 @@ export const Footer = () => {
                 <form action="POST">
                     <input type="email" placeholder='Enter Your Email' className='border-b-2 w-50 pb-2 outline-0' required/>
                     {/* put an arrow button to send */}
-                    <button className='p-2 bg-amber-600 rounded-3xl text-sm'>
+                    <button className='p-2 bg-amber-600 rounded-3xl text-sm cursor-pointer'>
                         ➡
                     </button>
                 </form>

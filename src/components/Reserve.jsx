@@ -9,7 +9,7 @@ export const Reserve = () => {
                 do you have any dinner plan today? reserve your table 
             </h2> 
             <p className='mb-5'>Make online reservation, read restaurant reviews from diners, and earn points towards free meals.</p>
-            <button className='font-semibold bg-amber-300 px-5 py-3 rounded-3xl hover:bg-amber-500'>Make Reservation</button>
+            <button className='font-semibold bg-amber-300 px-5 py-3 rounded-3xl hover:bg-amber-500 cursor-pointer'>Make Reservation</button>
         </div>
         <div className='w-full'>
             {/* image of a plate of food  */}

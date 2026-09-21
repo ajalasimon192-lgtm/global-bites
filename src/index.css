@@ -27,3 +27,7 @@
 .links a {
     @apply hover:text-black
 }
+
+.review {
+    @apply bg-yellow-200 rounded-2xl relative pt-8 px-7 pb-5
+}

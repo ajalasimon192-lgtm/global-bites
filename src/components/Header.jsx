@@ -57,9 +57,9 @@ export const Header = () => {
                     {
                     images.map((image) => {
                         // to add an icon to the button representing the food top be shown
-                        return <div>
+                        return <div key={image.id}>
                             <button className={selected.name === image.name ? 'food' : 'not-food'} 
-                            key={image.id} 
+                             
                             onClick={() => {
                                 setSelected(image)
                             }}>
