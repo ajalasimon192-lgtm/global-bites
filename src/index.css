@@ -1,5 +1,9 @@
 @import 'tailwindcss';
 
+@theme {
+    --font-sans: 'Baloo 2 variable', serif;
+}
+
 .hover {
     @apply relative inline-block font-semibold after:absolute after:right-0 after:-bottom-0.5 after:left-0 after:h-0.5 after:origin-left after:scale-x-0 after:bg-current after:content-[''] after:transition-transform after:duration-200 after:ease-in hover:after:scale-x-100;
 }

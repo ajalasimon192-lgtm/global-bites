@@ -37,9 +37,9 @@ export const Dishes = () => {
     ]
 
     return(
-        <div className='px-8 mb-4'>
+        <div className='px-4 md:px-8 mb-4'>
             <h2 className='capitalize text-2xl mb-5 font-semibold'>popular dishes</h2>
-            <div className='grid grid-cols-4 gap-5'>
+            <div className='grid md:grid-cols-4 gap-5'>
                 {
                     dishes.map((dish) => {
                         return <div key={dish.id} className='flex flex-col justify-between items-center text-center px-6 py-4 rounded-lg hover:shadow-gray-500 hover:shadow-lg'>

@@ -2,10 +2,10 @@ import React from 'react'
 
 export const Reviews = () => {
   return (
-    <div className='px-8 mb-7'>
+    <div id='reviews' className='px-4 md:px-8 mb-7'>
         <h3 className='capitalize text-4xl font-semibold mb-5'>what our customers says?</h3>
 
-        <div className='grid grid-cols-5 gap-5'>
+        <div className='grid md:grid-cols-5 gap-5'>
             <div className='bg-yellow-200 rounded-2xl relative pt-8 px-7 pb-5'>
                 <span className='text-6xl absolute top-0 left-3'>"</span>
                 <p>

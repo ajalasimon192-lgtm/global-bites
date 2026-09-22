@@ -1,3 +1,4 @@
+import '@fontsource-variable/baloo-2'
 import { Nav } from './components/Nav'
 import { Header } from './components/Header'
 import { Dishes } from './components/dishes'
@@ -10,7 +11,7 @@ import { Footer } from './components/Footer'
 function App() {
 
   return (
-    <div className='bg-[#f5f5f0]'>
+    <div className='bg-[#f5f5f0] '>
       <Nav />
       <Header />
       <Dishes />

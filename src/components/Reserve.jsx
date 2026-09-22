@@ -3,7 +3,7 @@ import model from '../assets/images/pictureModelForReserve.PNG'
 
 export const Reserve = () => {
   return (
-    <div className='flex items-center px-8 mt-2'>
+    <div className='md:flex items-center px-4 md:px-8 mt-5'>
         <div className='w-full'>
             <h2 className='capitalize text-5xl font-bold mb-5'>
                 do you have any dinner plan today? reserve your table 
