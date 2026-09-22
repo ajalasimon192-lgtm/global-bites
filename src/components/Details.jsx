@@ -1,6 +1,7 @@
 import React from 'react'
 import { ShoppingBag,CalendarCheck, Clock, UtensilsCrossed, Sparkles, ChefHat } from 'lucide-react'
-import chef from '../assets/images/chef2.png'
+import chef from '../assets/images/chef2.PNG'
+
 
 
 export const Details = () => {

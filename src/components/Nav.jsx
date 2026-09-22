@@ -23,7 +23,7 @@ export const Nav = () => {
                     <div className='absolute right-5 top-10 flex flex-col gap-2 z-1 bg-white w-25 p-2 shadow-xl shadow-black rounded-xl'>
                         <a href="#details" className='hover:font-semibold'>About Us</a>
                         <a href="#menu" className='hover:font-semibold'>Menu</a>
-                        <a href="#reviews" className='hover:font-semibold'>Reviews</a>
+                         <a href="#reviews" className='hover:font-semibold'>Reviews</a>
                         <a href="#" className='hover:font-semibold'>Blog</a>
                         <a href="#footer" className='hover:font-semibold'>Contacts</a>
                         <button className='bg-orange-400 px-2 py-1 rounded-3xl border border-transparent hover:bg-orange-200 cursor-pointer hover:border hover:border-black'>Reserve Table</button>
