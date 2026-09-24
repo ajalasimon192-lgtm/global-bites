@@ -13,7 +13,7 @@ export const MenuItems = () => {
         {
             id: 1,
             src: ossoBuco,
-            name: 'Osso Buco',
+            name: 'Osso Bucco',
             info: 'Slow-braised veal shanks served with a rich sauce.',
             price: 14.99
         },
