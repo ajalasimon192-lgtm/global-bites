@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import { Search } from 'lucide-react'
-import dishes from '../assets/images/dishes.PNG'
-import dessert from '../assets/images/desert.PNG'
-import drinks from '../assets/images/drinks.PNG'
-import platter from '../assets/images/platter.PNG'
-import snacks from '../assets/images/snacks.PNG'
+import dishes from '../assets/images/dishes.WEBP'
+import dessert from '../assets/images/dessert.WEBP'
+import drinks from '../assets/images/drinks.WEBP'
+import platter from '../assets/images/platter.WEBP'
+import snacks from '../assets/images/snacks.WEBP'
 
 export const Header = () => {
     const images = [
@@ -55,9 +55,9 @@ export const Header = () => {
             </div>
         </div>
         <div className='w-full'>
-            <div className='relative'>
-                <img src={selected.src} alt={selected.name} className='w-full h-screen object-contain'/>
-                <div className='absolute top-60 md:top-40 right-0 text-lg flex flex-col w-fit float-right gap-3'>
+            <div className='relative flex justify-center'>
+                <img src={selected.src} alt={selected.name} className='w-100 h-120 object-contain'/>
+                <div className='absolute top-30 md:top-30 right-0 text-lg flex flex-col w-fit float-right gap-3'>
                     {
                     images.map((image) => {
                         // to add an icon to the button representing the food top be shown

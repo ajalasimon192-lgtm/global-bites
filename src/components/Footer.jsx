@@ -1,5 +1,5 @@
 import { MoveRight } from 'lucide-react'
-import logo from '../assets/images/mainLogo.PNG'
+import logo from '../assets/images/mainLogo.WEBP'
 
 export const Footer = () => {
   return (

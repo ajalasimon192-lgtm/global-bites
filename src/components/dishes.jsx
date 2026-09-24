@@ -1,8 +1,8 @@
 import React from 'react'
-import pasta from '../assets/images/pasta.PNG'
-import fries from '../assets/images/friedFries.PNG'
-import shawarma from '../assets/images/chickenShawarma1.PNG'
-import curry from '../assets/images/FriedCurry.PNG'
+import pasta from '../assets/images/pasta.WEBP'
+import fries from '../assets/images/friedFries.WEBP'
+import shawarma from '../assets/images/chickenShawarma.WEBP'
+import curry from '../assets/images/friedCurry.WEBP'
 
 export const Dishes = () => {
     const dishes = [

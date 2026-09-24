@@ -1,12 +1,11 @@
-import React from 'react'
-import ossoBuco from '../assets/images/ossoBuco.PNG'
-import pizzaMaegherita from '../assets/images/pizzaMaegherita.PNG'
-import spaghettiCabonara from '../assets/images/spaghettiCabonara.PNG'
-import EggplantParamigiana from '../assets/images/EggplantParamigiana.PNG'
-import foccacia from '../assets/images/foccacia.PNG'
-import ravioli from '../assets/images/ravioli.PNG'
-import risotto from '../assets/images/risotto.PNG'
-import lasagna from '../assets/images/lasagna.PNG'
+import ossoBuco from '../assets/images/ossoBucco.WEBP'
+import pizzaMaegherita from '../assets/images/pizzaMargherita.WEBP'
+import spaghettiCabonara from '../assets/images/spaghettiCabonara.WEBP'
+import EggplantParamigiana from '../assets/images/EggplantParamigiana.WEBP'
+import foccacia from '../assets/images/foccacia.WEBP'
+import ravioli from '../assets/images/ravioli.WEBP'
+import risotto from '../assets/images/risotto.WEBP'
+import lasagna from '../assets/images/lasagna.WEBP'
 
 export const MenuItems = () => {
     const dishes = [
@@ -82,7 +81,7 @@ export const MenuItems = () => {
             <div className='grid grid-cols-2 md:grid-cols-4 gap-5'>
                 {
                     dishes.map((dish) => {
-                        return <div key={dish.id} className='bg-whit e flex flex-col justify-between items-center text-center px-6 py-4 rounded-4xl hover:shadow-gray-400 hover:shadow-sm'>
+                        return <div key={dish.id} className='bg-white flex flex-col justify-between items-center text-center px-6 py-4 rounded-4xl hover:shadow-gray-400 hover:shadow-sm'>
                             <img src={dish.src} alt="" className='mb-5 h-50 w-50 object-contain md:object-cover'/>
                             <div>
                                 {/* to add rating stars */}

@@ -1,5 +1,5 @@
 import React from 'react'
-import model from '../assets/images/pictureModelForReserve.PNG'
+import model from '../assets/images/modelForReserve.WEBP'
 
 export const Reserve = () => {
   return (

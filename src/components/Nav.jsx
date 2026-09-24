@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Menu, ShoppingCartPlus } from 'lucide-react'
-import logo from '../assets/images/mainLogo.PNG'
+import logo from '../assets/images/mainLogo.WEBP'
 
 export const Nav = () => {
 
